@@ -16,3 +16,7 @@ int func(void)
 	x = x+4;
 	return x;
 }
+
+void decirHola(char* nombre){
+	printf("Hola %s, ¿Como estas?", nombre);
+}
